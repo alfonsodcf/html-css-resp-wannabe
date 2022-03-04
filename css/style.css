@@ -60,4 +60,16 @@ img{
   clear:both;
 }
 
-
+@media screen and (max-width: 420px) {
+  .container.grey {
+    background-color: rgb(255, 249, 159);
+  }
+  .row:first-of-type {
+    background-color: blue
+  }
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+    width: 100%;
+  }
+}
